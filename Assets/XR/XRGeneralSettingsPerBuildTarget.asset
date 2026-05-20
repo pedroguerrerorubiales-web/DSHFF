@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4653155878208356690
+--- !u!114 &-4345967252673486233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: Unity.XR.Management::UnityEngine.XR.Management.XRGeneralSettings
-  m_LoaderManagerInstance: {fileID: 193938467703153294}
+  m_LoaderManagerInstance: {fileID: 577146300057279893}
   m_InitManagerOnStart: 1
---- !u!114 &-4389868059214448372
+--- !u!114 &-4045407692921013111
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,7 +30,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 86259b0bf6d3de5409f15c1be605fbcd, type: 2}
+  - {fileID: 11400000, guid: cbd1112bc752a9d4a9e53d2eb0ce4a4d, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,9 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Management.Editor::UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
   Keys: 0100000007000000
   Values:
-  - {fileID: -4653155878208356690}
-  - {fileID: 4216480132835202644}
---- !u!114 &193938467703153294
+  - {fileID: -4345967252673486233}
+  - {fileID: 3147958976344486770}
+--- !u!114 &577146300057279893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,8 +63,8 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 86259b0bf6d3de5409f15c1be605fbcd, type: 2}
---- !u!114 &4216480132835202644
+  - {fileID: 11400000, guid: cbd1112bc752a9d4a9e53d2eb0ce4a4d, type: 2}
+--- !u!114 &3147958976344486770
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,5 +76,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Android Settings
   m_EditorClassIdentifier: Unity.XR.Management::UnityEngine.XR.Management.XRGeneralSettings
-  m_LoaderManagerInstance: {fileID: -4389868059214448372}
+  m_LoaderManagerInstance: {fileID: -4045407692921013111}
   m_InitManagerOnStart: 1
